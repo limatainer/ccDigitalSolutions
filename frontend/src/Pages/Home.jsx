@@ -1,0 +1,27 @@
+import React from 'react';
+import {
+  Navbar,
+  Hero,
+  Feature,
+  Article,
+  Call,
+  RealCase,
+  ReturnToTopButton,
+  Footer,
+  Contato,
+} from '../Components';
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Feature />
+      <Article />
+      <Call />
+      <RealCase />
+      <Contato />
+      <ReturnToTopButton />
+      <Footer />
+    </>
+  );
+}
