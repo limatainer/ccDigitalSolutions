@@ -16,8 +16,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Feature />
-      <Article />
       <Call />
+      <Article />
       <RealCase />
       <Contato />
       <ReturnToTopButton />

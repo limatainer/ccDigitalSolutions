@@ -158,12 +158,12 @@ export default function Contato() {
               </div>
             </div>
             <svg
-              viewbox="0 0 91 91"
-              className="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-yellow-300
-                fill-current"
+              viewBox="0 0 91 91"
+              className="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12
+               text-yellow-300 fill-current"
             >
-              <g stroke="none" strokewidth="1" fillrule="evenodd">
-                <g fillrule="nonzero">
+              <g stroke="none" strokeWidth="1" fillRule="evenodd">
+                <g fillRule="nonzero">
                   <g>
                     <g>
                       <circle cx="3.261" cy="3.445" r="2.72" />
@@ -250,12 +250,12 @@ export default function Contato() {
               </g>
             </svg>
             <svg
-              viewbox="0 0 91 91"
+              viewBox="0 0 91 91"
               className="absolute bottom-0 right-0 z-0 w-32 h-32 -mb-12 -mr-12 text-cousseiro-500
                 fill-current"
             >
-              <g stroke="none" strokewidth="1" fillrule="evenodd">
-                <g fillrule="nonzero">
+              <g stroke="none" strokeWidth="1" fillRule="evenodd">
+                <g fillRule="nonzero">
                   <g>
                     <g>
                       <circle cx="3.261" cy="3.445" r="2.72" />

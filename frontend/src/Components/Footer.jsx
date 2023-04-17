@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       className="w-full bg-gray-100 pt-2 shadow 
-    shadow-indigo-500"
+    shadow-cousseiro-500"
     >
       <div className="container px-4 mx-auto md:px-12 lg:px-28">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
