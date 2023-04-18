@@ -1,4 +1,5 @@
 import React from 'react';
+import { navigation } from '../constants';
 import { BsLinkedin, BsInstagram, BsFacebook } from 'react-icons/bs';
 export default function Footer() {
   return (
@@ -11,28 +12,25 @@ export default function Footer() {
           <div className="flex flex-col justify-center">
             <h1 className="text-center">CostaCousseiroTech</h1>
           </div>
-          <div className="flex flex-col justify-center">
-            <ul className="flex flex-col items-center justify-center gap-4 md:flex-row md:justify-end md:gap-8">
-              <li>
-                <a href="#" className="hover:text-cousseiro-300">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="hover:text-cousseiro-300">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-cousseiro-300">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="hover:text-cousseiro-300">
-                  About
-                </a>
-              </li>
+
+          <div className="flex justify-center">
+            <ul
+              className="flex flex-col items-center justify-center
+             gap-6 md:flex-row md:justify-end md:gap-8"
+            >
+              {navigation.map((nav, index) => (
+                <li key={index}>
+                  <a
+                    href={`#${nav.id}`}
+                    aria-label="Our product"
+                    title={nav.title}
+                    className=" tracking-wide text-cc-300 
+              transition-colors duration-200 hover:text-costa-600"
+                  >
+                    {nav.title}{' '}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="flex flex-col justify-center">
@@ -43,7 +41,12 @@ export default function Footer() {
               <a href="#about" aria-label="send mail">
                 <BsInstagram />
               </a>
-              <a href="#" title="facebook" target="blank" aria-label="facebook">
+              <a
+                href="#why"
+                title="facebook"
+                target="blank"
+                aria-label="facebook"
+              >
                 <BsLinkedin />
               </a>
             </div>

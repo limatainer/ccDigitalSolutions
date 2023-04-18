@@ -4,7 +4,10 @@ export default function Article() {
   return (
     <>
       <div className="p-5 mx-auto sm:p-10 md:p-16 ">
-        <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
+        <div
+          id="about"
+          className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded"
+        >
           <img
             src={Network}
             alt=""
@@ -35,7 +38,10 @@ export default function Article() {
         </div>
       </div>
       {/* Presentation Section */}
-      <div className="flex flex-col md:flex-row p-8 md:px-8 lg:px-16 my-8 ">
+      <div
+        id="why"
+        className="flex flex-col md:flex-row p-8 md:px-8 lg:px-16 my-8 "
+      >
         <div className="w-full md:w-1/2 md:pr-4 lg:pr-8 rounded shadow-md">
           <h2 className=" text-center text-3xl md:text-4xl font-bold mb-4">
             We are your premier RPA development agency.

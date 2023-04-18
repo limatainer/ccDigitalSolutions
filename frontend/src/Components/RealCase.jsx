@@ -1,7 +1,10 @@
 import React from 'react';
 export default function RealCase() {
   return (
-    <div className="flex justify-center py-8 bg-gradient-to-r from-gray-100 to-slate-200">
+    <div
+      id="real"
+      className="flex justify-center py-8 bg-gradient-to-r from-gray-100 to-slate-200"
+    >
       <div className="w-full md:w-4/5 lg:w-3/4 xl:w-2/3  ">
         <h2 className="text-center text-3xl md:text-4xl font-bold m-8">
           Real Cases Story

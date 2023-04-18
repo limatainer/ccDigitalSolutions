@@ -5,19 +5,20 @@ export const navigation = [
   },
   {
     id: "about",
-    title: "About",
+    title: "About Automations",
+  },
+  {  id: "why",
+    title: "Why us?",
+  },
+  {
+    id: "real",
+    title: "Real Cases",
   },
   {
     id: "contato",
     title: "Contact",
   },
-  {
-    id: "services",
-    title: "Services",
-  },
-  {
-    id: "portfolio",
-    title: "Projects",
-  },
+  
+ 
   
 ];
