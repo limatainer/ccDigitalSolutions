@@ -3,11 +3,8 @@ import Network from '/network.jpg';
 export default function Article() {
   return (
     <>
-      <div className="p-5 mx-auto sm:p-10 md:p-16 ">
-        <div
-          id="about"
-          className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded"
-        >
+      <div id="about" className="p-5 mx-auto sm:p-10 md:p-16 ">
+        <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
           <img
             src={Network}
             alt=""
@@ -38,41 +35,49 @@ export default function Article() {
         </div>
       </div>
       {/* Presentation Section */}
-      <div
-        id="why"
-        className="flex flex-col md:flex-row p-8 md:px-8 lg:px-16 my-8 "
-      >
-        <div className="w-full md:w-1/2 md:pr-4 lg:pr-8 rounded shadow-md">
-          <h2 className=" text-center text-3xl md:text-4xl font-bold mb-4">
-            We are your premier RPA development agency.
-          </h2>
-          <p className="text-base md:text-lg text-costa-600 p-4">
-            Our expertise spans across all industries and company sizes,
-            providing innovative solutions with automations and freeing up your
-            employees' valuable time and maximizing their productivity, making a
-            meaningful impact on your bottom line every single day. RPA can
-            readily scale to manage increased workloads, allowing organizations
-            to keep up with rising demand without adding personnel. Adopting RPA
-            can offer businesses with a competitive advantage.
-          </p>
-        </div>
-        <div className="w-full md:w-1/2 md:pl-4 lg:pl-8 rounded shadow-md ">
-          <h1 className="text-center text-3xl md:text-4xl font-bold mb-4">
-            This is why and how our automation solutions will help your
-            business.
-          </h1>
-          <p className="text-base md:text-lg text-costa-600 p-4">
-            With automation, you may complete repetitive, time-consuming
-            operations faster and with fewer errors than people, increasing
-            productivity and efficiency. Businesses can cut the costs of
-            recruiting and educating staff members by automating manual
-            procedures, leading to in significant cost savings. RPA can remove
-            human errors in data input, calculations, and other regular
-            processes, resulting in higher accuracy and less costly blunders.
-            Businesses can free up staff time to focus on providing better
-            customer service, resulting to higher customer satisfaction, by
-            automating mundane operations.
-          </p>
+      <div id="why" className="p-28 my-4">
+        <h1
+          className="text-center mb-8 animate-text bg-gradient-to-r from-teal-500
+         via-cousseiro-500 to-indigo-500 bg-clip-text text-transparent 
+         text-5xl font-black  md:text-4xl"
+        >
+          {' '}
+          Why us?
+        </h1>
+        <div className="flex flex-col md:flex-row p-8 md:px-8 lg:px-16 my-8 ">
+          <div className="w-full md:w-1/2 md:pr-4 lg:pr-8 rounded shadow-md">
+            <h2 className=" text-center text-3xl md:text-4xl font-bold mb-4">
+              We are your premier RPA development agency.
+            </h2>
+            <p className="text-base md:text-lg text-costa-600 p-4">
+              Our expertise spans across all industries and company sizes,
+              providing innovative solutions with automations and freeing up
+              your employees' valuable time and maximizing their productivity,
+              making a meaningful impact on your bottom line every single day.
+              RPA can readily scale to manage increased workloads, allowing
+              organizations to keep up with rising demand without adding
+              personnel. Adopting RPA can offer businesses with a competitive
+              advantage.
+            </p>
+          </div>
+          <div className="w-full md:w-1/2 md:pl-4 lg:pl-8 rounded shadow-md ">
+            <h1 className="text-center text-3xl md:text-4xl font-bold mb-4">
+              This is why and how our automation solutions will help your
+              business.
+            </h1>
+            <p className="text-base md:text-lg text-costa-600 p-4">
+              With automation, you may complete repetitive, time-consuming
+              operations faster and with fewer errors than people, increasing
+              productivity and efficiency. Businesses can cut the costs of
+              recruiting and educating staff members by automating manual
+              procedures, leading to in significant cost savings. RPA can remove
+              human errors in data input, calculations, and other regular
+              processes, resulting in higher accuracy and less costly blunders.
+              Businesses can free up staff time to focus on providing better
+              customer service, resulting to higher customer satisfaction, by
+              automating mundane operations.
+            </p>
+          </div>
         </div>
       </div>
     </>

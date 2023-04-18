@@ -4,7 +4,7 @@ import { BsLinkedin, BsInstagram, BsFacebook } from 'react-icons/bs';
 export default function Footer() {
   return (
     <footer
-      className="w-full bg-gray-100 pt-2 shadow 
+      className="w-full bg-costa-300 pt-2 shadow 
     shadow-cousseiro-500"
     >
       <div className="container px-4 mx-auto md:px-12 lg:px-28">

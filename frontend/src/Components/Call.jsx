@@ -15,7 +15,7 @@ export default function Call() {
           Let's get started
         </h2>
         <a
-          href="#"
+          href="#contato"
           className="relative flex h-12 w-full mx-auto items-center justify-center
            px-8 before:absolute before:inset-0 before:rounded-full before:bg-white
             before:transition before:duration-300 hover:before:scale-105 
