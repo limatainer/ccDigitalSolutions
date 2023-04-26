@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container px-4 mx-auto md:px-12 lg:px-28">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="flex flex-col justify-center">
-            <h1 className="text-center">CostaCousseiroTech</h1>
+            <h1 className="text-center">CBotTech</h1>
           </div>
 
           <div className="flex justify-center">
@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="py-4 text-center">
           <span className="text-sm tracking-wide">
             All rights reserved | Copyright ©<span id="year">2023</span>{' '}
-            CostaCousseiroTech
+            CBotTech
           </span>
         </div>
       </div>

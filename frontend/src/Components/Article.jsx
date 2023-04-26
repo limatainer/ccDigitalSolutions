@@ -26,10 +26,10 @@ export default function Article() {
             </h2>
 
             <p>
-              At Costa Cousseiro, we pride ourselves on offering the best of
-              both worlds: The corporate-level quality of service you expect
-              from a large agency, combined with the personal touch and
-              attention to detail you'd find at a boutique agency.
+              At CBot Tech, we pride ourselves on offering the best of both
+              worlds: The corporate-level quality of service you expect from a
+              large agency, combined with the personal touch and attention to
+              detail you'd find at a boutique agency.
             </p>
           </div>
         </div>
