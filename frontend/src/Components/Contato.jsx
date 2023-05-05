@@ -31,7 +31,10 @@ export default function Contato() {
   };
 
   return (
-    <div id="contato" className="bg-slate-100 relative lg:py-20 px-32">
+    <div
+      id="contato"
+      className="bg-slate-100 relative lg:py-20 px-32 text-center"
+    >
       <div
         className="flex flex-col items-center justify-between pt-0 pr-10 pb-0 pl-10 mt-0 mr-auto mb-4 ml-auto max-w-7xl
           xl:px-5 lg:flex-row"
