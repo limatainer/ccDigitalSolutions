@@ -8,44 +8,32 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <div
-        className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full
-       lg:max-w-screen-xl md:px-24 lg:px-8"
-      >
-        <div
-          className="relative flex items-center justify-between
-           lg:justify-center
-         lg:space-x-16"
-        >
+      <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="relative flex flex-col items-center justify-between lg:flex-row lg:justify-center lg:space-x-16">
           <a
             href="#about"
             aria-label="CC"
             title="CC"
             className="inline-flex items-center"
           >
-            <span
-              className="ml-2 text-xl font-bold tracking-wide
-               text-cc-300 
-            uppercase"
-            >
+            <span className="ml-2 text-xl font-bold tracking-wide text-cc-300 uppercase">
               <img
                 src={Logo}
                 alt="logo"
-                className="w-22 h-auto sm:w-32 md:w-44 lg:w-62 xl:w-70"
+                className="h-auto sm:w-32 md:w-44 lg:w-48 xl:w-56"
               />
             </span>
           </a>
-          <ul className=" items-center hidden space-x-8 lg:flex">
+          <ul className="items-center hidden space-x-8 lg:flex">
             {navigation.map((nav, index) => (
               <li key={index}>
                 <a
                   href={`#${nav.id}`}
                   aria-label="Our product"
                   title={nav.title}
-                  className="font-medium tracking-wide text-cc-300 
-              transition-colors duration-200 hover:text-costa-600"
+                  className="font-medium tracking-wide text-cc-300 transition-colors duration-200 hover:text-costa-600"
                 >
-                  {nav.title}{' '}
+                  {nav.title}
                 </a>
               </li>
             ))}
@@ -54,8 +42,7 @@ export default function Navbar() {
             <button
               aria-label="Open Menu"
               title="Open Menu"
-              className="p-2 -mr-1 transition duration-200 rounded 
-              focus:outline-none focus:shadow-outline hover:bg-cousseiro-300 focus:bg-cousseiro-600"
+              className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-cousseiro-300 focus:bg-cousseiro-600"
               onClick={() => setIsMenuOpen(true)}
             >
               <svg className="w-5 text-cc-300" viewBox="0 0 24 24">
@@ -84,16 +71,14 @@ export default function Navbar() {
                         title="Company"
                         className="inline-flex items-center"
                       >
-                        <img src={Logo} alt="logo" className="w-full" />
+                        <img src={Logo} alt="logo" className="w-24" />
                       </a>
                     </div>
                     <div>
                       <button
                         aria-label="Close Menu"
                         title="Close Menu"
-                        className="p-2 -mt-2 -mr-2 transition duration-200 rounded
-                         hover:bg-cousseiro-500 focus:bg-cousseiro-600 focus:outline-none
-                          focus:shadow-outline"
+                        className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-cousseiro-500 focus:bg-cousseiro-600 focus:outline-none focus:shadow-outline"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         <svg className="w-5 text-cc-300" viewBox="0 0 24 24">
@@ -108,16 +93,14 @@ export default function Navbar() {
                   <nav>
                     <ul className="space-y-4">
                       {navigation.map((nav) => (
-                        <li>
+                        <li key={nav.id}>
                           <a
-                            key={nav.id}
                             href={`#${nav.id}`}
                             aria-label="Our product"
                             title={nav.title}
-                            className="font-medium tracking-wide text-cc-300 
-                          transition-colors duration-200 hover:text-cousseiro-500"
+                            className="font-medium tracking-wide text-cc-300 transition-colors duration-200 hover:text-cousseiro-500"
                           >
-                            {nav.title}{' '}
+                            {nav.title}
                           </a>
                         </li>
                       ))}

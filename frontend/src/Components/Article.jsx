@@ -3,7 +3,7 @@ import Network from '/network.jpg';
 export default function Article() {
   return (
     <>
-      <div id="about" className="p-5 mx-auto sm:p-10 md:p-16 ">
+      <div id="about" className="p-5 mx-auto sm:p-10 md:p-16">
         <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
           <img
             src={Network}
@@ -11,10 +11,7 @@ export default function Article() {
             className="w-full h-60 sm:h-96"
             loading="lazy"
           />
-          <div
-            className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl
-           sm:px-10 sm:mx-12 lg:rounded-md bg-costa-300 shadow-lg"
-          >
+          <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-costa-300 shadow-lg">
             <h1 className="inline-block text-2xl font-semibold sm:text-3xl">
               Robotic Process Automation is transforming industries across the
               board. Are you ready to revolutionize your business?
@@ -34,19 +31,15 @@ export default function Article() {
           </div>
         </div>
       </div>
+
       {/* Presentation Section */}
-      <div id="why" className="p-28 my-4">
-        <h1
-          className="text-center mb-8 animate-text bg-gradient-to-r from-teal-500
-         via-cousseiro-500 to-indigo-500 bg-clip-text text-transparent 
-         text-5xl font-black  md:text-4xl"
-        >
-          {' '}
+      <div id="why" className="p-8 sm:p-10 md:p-16 my-4">
+        <h1 className="text-center mb-8 animate-text bg-gradient-to-r from-teal-500 via-cousseiro-500 to-indigo-500 bg-clip-text text-transparent text-5xl font-black md:text-4xl">
           Why us?
         </h1>
-        <div className="flex flex-col md:flex-row p-8 md:px-8 lg:px-16 my-8 ">
+        <div className="flex flex-col md:flex-row p-8 md:px-8 lg:px-16 my-8">
           <div className="w-full md:w-1/2 md:pr-4 lg:pr-8 rounded shadow-md">
-            <h2 className=" text-center text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-center text-3xl md:text-4xl font-bold mb-4">
               We are your premier RPA development agency.
             </h2>
             <p className="text-base md:text-lg text-costa-600 p-4">
@@ -60,8 +53,8 @@ export default function Article() {
               advantage.
             </p>
           </div>
-          <div className="w-full md:w-1/2 md:pl-4 lg:pl-8 rounded shadow-md ">
-            <h1 className="text-center text-3xl md:text-4xl font-bold mb-4">
+          <div className="w-full md:w-1/2 md:pl-4 lg:pl-8 rounded shadow-md">
+            <h1 className="text-center text-3xl md:text-4xl font-bold my-4">
               This is why and how our automation solutions will help your
               business.
             </h1>
@@ -70,11 +63,11 @@ export default function Article() {
               operations faster and with fewer errors than people, increasing
               productivity and efficiency. Businesses can cut the costs of
               recruiting and educating staff members by automating manual
-              procedures, leading to in significant cost savings. RPA can remove
+              procedures, leading to significant cost savings. RPA can remove
               human errors in data input, calculations, and other regular
-              processes, resulting in higher accuracy and less costly blunders.
+              processes, resulting in higher accuracy and fewer costly blunders.
               Businesses can free up staff time to focus on providing better
-              customer service, resulting to higher customer satisfaction, by
+              customer service, resulting in higher customer satisfaction, by
               automating mundane operations.
             </p>
           </div>

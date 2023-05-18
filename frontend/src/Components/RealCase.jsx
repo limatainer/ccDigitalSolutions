@@ -24,7 +24,7 @@ export default function RealCase() {
               >
                 HR
               </a>
-              <span className="text-sm text-gray-400">Hiring</span>
+              <span className="text-sm text-gray-400 m-2">Hiring</span>
             </div>
             <div className="mt-3">
               <a
@@ -88,7 +88,7 @@ export default function RealCase() {
         >
           <div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg">
             <div className="flex items-center justify-between">
-              <span className="text-sm text-gray-400">
+              <span className="text-sm text-gray-400 m-2">
                 Building a Stock Management Bot{' '}
               </span>
               <a
@@ -161,7 +161,7 @@ export default function RealCase() {
               >
                 Health
               </a>
-              <span className="text-sm text-gray-400">
+              <span className="text-sm text-gray-400 m-2">
                 Reduce time in Healthcare{' '}
               </span>
             </div>
